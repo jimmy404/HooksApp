@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CounterCustomHook } from './component/useState/CounterCustomHook';
+import { SimpleForm } from './component/useEffect/SimpleForm';
 
 ReactDOM.render(
-    <CounterCustomHook />,
+    <SimpleForm />,
   document.getElementById('root')
 );
