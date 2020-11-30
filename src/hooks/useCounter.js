@@ -1,23 +1,22 @@
-import { isInaccessible } from "@testing-library/react";
 import { useState } from "react"
 
 export const useCounter = (initialState = 0) => {
-  const [state, setState] = useState(initialState);
+  const [counter, setCounter] = useState(initialState);
 
   const increment = () => {
-    setState(state + 1);
+    setCounter(counter + 1);
   }
 
   const decrement = () => {
-    setState(state - 1);
+    setCounter(counter - 1);
   }
 
   const reset = () => {
-    setState(initialState);
+    setCounter(initialState);
   }
 
   return {
-    state,
+    counter,
     increment,
     decrement,
     reset
