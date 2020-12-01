@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { FocusScreen } from './component/useRef/FocusScreen';
+import { RealExample } from './component/useRef/RealExample';
 
 ReactDOM.render(
-    <FocusScreen />,
+    <RealExample />,
   document.getElementById('root')
 );
