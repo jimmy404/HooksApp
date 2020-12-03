@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Layout } from './component/useLayoutEffect/LayoutEffect';
+import { Memo } from './component/memo/Memo';
 
 ReactDOM.render(
-    <Layout />,
+    <Memo />,
   document.getElementById('root')
 );
