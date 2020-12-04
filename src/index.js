@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Memo } from './component/memo/Memo';
+import { CallbackHook } from './component/memo/CallbackHook';
 
 ReactDOM.render(
-    <Memo />,
+    <CallbackHook />,
   document.getElementById('root')
 );
